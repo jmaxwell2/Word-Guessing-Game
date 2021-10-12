@@ -25,9 +25,9 @@ int main()
         //Initialize random # generator
         srand(time(0));
 
-        //Prompt for fn
-        cout << "Enter filename that contains words: ";
-        cin >> fn;
+        // Set the filename
+        fn = "words1.txt";
+
 
     do {
 
